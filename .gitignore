@@ -1,0 +1,5 @@
+docker/mysql/*
+docker/logs/*
+!docker/mysql/.gitkeep
+!docker/logs/.gitkeep
+docker/.env

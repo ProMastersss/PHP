@@ -1,0 +1,18 @@
+{
+  // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+  // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+  // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+  // Запуск Chrome: /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9229
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "XDebug",
+      "type": "php",
+      "request": "launch",
+      "pathMappings": {
+        "/app": "${workspaceFolder}/src"
+      },
+      "port": 9003
+    }
+  ]
+}
